@@ -1,5 +1,13 @@
 body{
-    padding:50px
+    padding:50px;
+    color: hsl(199, 72%, 50%);
+
+
+
+
+    
+    
+    background-color: lightblue;
 }
 
 p{

@@ -88,7 +88,7 @@ export const TodoApp =()  =>{
                             type='text'
                             name='description'
                             className='form-control'
-                            placeholder='Aprender...'
+                            placeholder='Ingresa una tarea aquí...'
                             autoComplete='off'
                             value={description}
                             onChange={ handleInputChange}
