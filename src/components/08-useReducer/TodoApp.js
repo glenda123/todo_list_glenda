@@ -81,7 +81,7 @@ export const TodoApp =()  =>{
                     </ul>
                 </div>
                 <div className='col-lg-5 col-xs-12'>
-                    <h4>Agregar Todo</h4>
+                    <h6>Agregar Todo</h6>
                     <hr/>
                     <form onSubmit={handleSubmit}>
                         <input
