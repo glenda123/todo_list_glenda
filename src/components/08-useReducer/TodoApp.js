@@ -65,7 +65,7 @@ export const TodoApp =()  =>{
             <h1>TodoApp</h1>
             <hr/>
             <div className='row'>
-                <div className='col-7'>
+                <div className='col-lg-7 col-xs-12'>
                     <ul className='list-group list-group-flush'>
                     {
                         todos.map( (todo, i) => (
@@ -80,7 +80,7 @@ export const TodoApp =()  =>{
                     }
                     </ul>
                 </div>
-                <div className='col-5'>
+                <div className='col-lg-5 col-xs-12'>
                     <h4>Agregar Todo</h4>
                     <hr/>
                     <form onSubmit={handleSubmit}>
