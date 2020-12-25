@@ -71,7 +71,7 @@ export const TodoApp =()  =>{
                         todos.map( (todo, i) => (
                             <li
                                 key={todo.id}
-                                className="list-group-item d-flex justify-content-between align-items-center"
+                                className="list-group-item d-flex justify-content-between align-items-center mr-2"
                             > 
                                 <p className={`${todo.done && 'complete'} mr-1`} onClick={ () => handleToggle(todo.id)}>{i+1}. { todo.desc}</p>
                                 <button className='btn btn-danger d-flex mr-1' onClick={ () => {handleDelete(todo.id)}}>Borrar</button>
