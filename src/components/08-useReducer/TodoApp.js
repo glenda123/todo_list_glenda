@@ -71,10 +71,10 @@ export const TodoApp =()  =>{
                         todos.map( (todo, i) => (
                             <li
                                 key={todo.id}
-                                className="list-group-item"
+                                className="list-group-item d-flex justify-content-between align-items-center"
                             > 
                                 <p className={`${todo.done && 'complete'}`} onClick={ () => handleToggle(todo.id)}>{i+1}. { todo.desc}</p>
-                                <button className='btn btn-danger' onClick={ () => {handleDelete(todo.id)}}>Borrar</button>
+                                <button className='btn btn-danger d-flex' onClick={ () => {handleDelete(todo.id)}}>Borrar</button>
                             </li>
                         ))
                     }
@@ -95,7 +95,7 @@ export const TodoApp =()  =>{
                         />
                         <button
                             type='submit' 
-                            className='btn btn-outline-primary mt-1 btn-block'
+                            className='btn btn-outline-primary mt-2 btn-block'
                         >
                             Agregar
                         </button>
