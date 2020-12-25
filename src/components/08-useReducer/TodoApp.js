@@ -73,7 +73,7 @@ export const TodoApp =()  =>{
                                 key={todo.id}
                                 className="list-group-item  mr-2"
                             > 
-                                <p className={`${todo.done && 'complete'} mr-1`} onClick={ () => handleToggle(todo.id)}>{i+1}. { todo.desc}</p>
+                                <p className={`${todo.done && 'complete'}  d-block mr-1`} onClick={ () => handleToggle(todo.id)}>{i+1}. { todo.desc}</p>
                                 <button className='btn btn-danger btn-block mr-1' onClick={ () => {handleDelete(todo.id)}}>Borrar</button>
                             </li>
                         ))
